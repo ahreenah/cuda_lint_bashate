@@ -26,14 +26,6 @@ class Bashate(Linter):
 
         match, line, col, error, warning, message, near = split_match
         return match, line, 0, '', '', message, ''
-        
-
-
-    def cmd(self):
-    
-        """Return the command line to execute."""
-        result = self.executable + ' ' + self.base_cmd
-        return result
     
     def tmpfile(self, cmd, code, suffix=''):
         """
