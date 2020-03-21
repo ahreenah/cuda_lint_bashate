@@ -36,7 +36,6 @@ class Bashate(Linter):
         return result
     
     def tmpfile(self, cmd, code, suffix=''):
-        print('tmpfile',cmd,code,suffix)
         """
         Run an external executable using a temp file to pass code and return its output.
         We override this to have the tmpfile extension match what is being
