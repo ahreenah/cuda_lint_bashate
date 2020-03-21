@@ -1,0 +1,6 @@
+[info]
+title=Linter for Bash, using 'bashate'
+desc=Linter for CudaLint, adds support for Bash script lexer, using 'bashate'
+type=cudatext-plugin
+subdir=cuda_lint_bashate
+homepage=https://github.com/medvosa/cuda_lint_bashate
